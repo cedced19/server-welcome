@@ -1,0 +1,35 @@
+{
+  "name": "server-welcome",
+  "version": "0.0.0",
+  "description": "Give a message to display when server start with the port, the name and the address.",
+  "main": "index.js",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "internal-ip": "^1.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cedced19/server-welcome.git"
+  },
+  "keywords": [
+    "server",
+    "cli",
+    "welcome",
+    "message",
+    "port",
+    "msg",
+    "address"
+  ],
+  "author": "Cédric Jung <cedced19@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cedced19/server-welcome/issues"
+  },
+  "homepage": "https://github.com/cedced19/server-welcome#readme"
+}
