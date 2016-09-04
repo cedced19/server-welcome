@@ -14,7 +14,7 @@ npm install --save server-welcome
 ## Usage
 
 ```js
-require('env-port')('8080', 'Server name');
+require('server-welcome')('8080', 'Server name');
 //=> 'Server name: Browse to 'http://192.168.0.47:8080''
 ```
 ## Demo
